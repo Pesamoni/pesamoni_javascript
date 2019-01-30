@@ -74,12 +74,6 @@
         throw new Error("Missing the required parameter 'method' when calling transactionsPost");
       }
 
-      // verify the required parameter 'amount' is set
-      if (amount === undefined || amount === null) {
-        throw new Error("Missing the required parameter 'amount' when calling transactionsPost");
-      }
-
-
       var pathParams = {
       };
       var queryParams = {
